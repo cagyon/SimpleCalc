@@ -1,0 +1,3 @@
+# SimpleCalc
+
+Calculatrice JavaFX
