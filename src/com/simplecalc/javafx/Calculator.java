@@ -1,5 +1,6 @@
 package com.simplecalc.javafx;
 
+//Cette classe fait les opérations
 public class Calculator {
     
     private int total;   

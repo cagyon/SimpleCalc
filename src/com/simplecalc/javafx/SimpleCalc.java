@@ -15,6 +15,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 
+// Cette application est une calculatrice réalisée avec Java FX
 public class SimpleCalc extends Application {
 	
 	private final static String[] numberButtons = {"7","8","9","4","5","6","1","2","3","","0",""};
@@ -95,7 +96,7 @@ public class SimpleCalc extends Application {
 	    	
 	        // Placer les boutons de haut en bas: 789, 456, 123, 0
 	    	int row = 0, column = 0;
-	    	
+
 	    	for (int i = 0; i < numberButtons.length; i++) {
 	            Button b = new Button(numberButtons[i]);
 		    	b.setFont(Font.font("Verdana", FontWeight.NORMAL, 30));
