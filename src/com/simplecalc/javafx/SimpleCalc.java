@@ -21,9 +21,9 @@ public class SimpleCalc extends Application {
 	private final static String[] opButtons     = {"+", "-", "*", "/", "="};
 	
 	private TextField 	display;        	// l'affichage de la calculatrice
-    	private String    	lastOp  = "=";      	// dernier opérateur saisi
-    	private boolean   	newNumber = true;  	// le caractère est-il le premier chiffre d'un nouveau nombre?
-    	private Calculator 	calc;			// le calculateur proprement dit
+    private String    	lastOp  = "=";      // dernier opérateur saisi
+    private boolean   	newNumber = true;  	// le caractère est-il le premier chiffre d'un nouveau nombre?
+    private Calculator 	calc;				// le calculateur proprement dit
 	
     public void reset() {
     	// Remettre la calculatrice dans l'état initial
@@ -95,6 +95,7 @@ public class SimpleCalc extends Application {
 	    	
 	        // Placer les boutons de haut en bas: 789, 456, 123, 0
 	    	int row = 0, column = 0;
+	    	
 	    	for (int i = 0; i < numberButtons.length; i++) {
 	            Button b = new Button(numberButtons[i]);
 		    	b.setFont(Font.font("Verdana", FontWeight.NORMAL, 30));
